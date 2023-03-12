@@ -2,7 +2,7 @@
 
 Changes in HeroScribeEnhanced-1.0, by 2011 Jason Allen.
 
-Using OpenJDK 17 and maven.
+Using JDK 17 and maven.
 
 Made for home use.
 
@@ -10,9 +10,8 @@ Made for home use.
 
 ### Maven & Java
 
-- OpenJDK 17.0.1 - https://jdk.java.net/archive/
-- Maven - https://maven.apache.org/
-- Postscript - for high quality PDF generation
+- Amazon Corretto JDK 17 - https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/what-is-corretto-17.html
+- Maven 3 - https://maven.apache.org/
 
 ### Using asdf (Linux)
 
@@ -32,6 +31,10 @@ This will create a `target` folder with a file called `heroscribe-bundle.zip`, w
 Unzip the bundle and run
 
     java -jar heroscribe.jar
+
+### Postscript
+
+Install postscript for high quality PDF generation.
 
 ## Links
 
