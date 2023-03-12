@@ -94,7 +94,9 @@ public class Gui extends JFrame implements WindowListener, ItemListener, ActionL
 	public Gui(Preferences preferences, List objects, Quest quest) {
 		super();
 		// HSE - set app icon
-		this.setIconImage(Toolkit.getDefaultToolkit().getImage("HeroScribe.png"));
+		ImageIcon image = new ImageIcon(ClassLoader.getSystemResource("HeroScribe.png"));
+		this.setIconImage(image.getImage());
+		
 		this.prefs = preferences;
 		this.objects = objects;
 		this.quest = quest;
