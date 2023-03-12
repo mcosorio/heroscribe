@@ -37,6 +37,10 @@
 			<source>src/main/assembly/HeroScribe.cmd</source>
 			<outputDirectory>/</outputDirectory>
 		</file>
+		<file>
+			<source>.tool-versions</source>
+			<outputDirectory>/</outputDirectory>
+		</file>
 		
 	</files>
 
